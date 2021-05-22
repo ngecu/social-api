@@ -4,11 +4,18 @@
   "description": "Mut Social Media Platform",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "Dev Ngecu",
   "license": "ISC",
   "dependencies": {
-    "colors": "^1.4.0"
+    "bcrypt": "^5.0.1",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.12.10",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
   }
 }
